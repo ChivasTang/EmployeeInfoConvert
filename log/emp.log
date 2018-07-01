@@ -1,0 +1,606 @@
+2018-06-30 22:47:50 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 22:47:50 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:47:50 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:47:50 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:47:50 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:47:50 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 22:47:51 [main] DEBUG PooledDataSource:406 - Created connection 1825419935.
+2018-06-30 22:47:51 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ccdb29f]
+2018-06-30 22:47:51 [main] DEBUG findAllDepartment:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-06-30 22:47:51 [main] DEBUG findAllDepartment:159 - ==> Parameters: 
+2018-06-30 22:47:51 [main] DEBUG findAllDepartment:159 - <==      Total: 5
+2018-06-30 22:47:51 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:49:39 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 22:49:39 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:49:39 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:49:39 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:49:39 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:49:40 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 22:49:40 [main] DEBUG PooledDataSource:406 - Created connection 43650267.
+2018-06-30 22:49:40 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29a0cdb]
+2018-06-30 22:49:40 [main] DEBUG findAllDepartment:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-06-30 22:49:40 [main] DEBUG findAllDepartment:159 - ==> Parameters: 
+2018-06-30 22:49:40 [main] DEBUG findAllDepartment:159 - <==      Total: 5
+2018-06-30 22:52:03 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 22:52:03 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:52:03 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:52:03 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:52:03 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 22:52:03 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 22:52:04 [main] DEBUG PooledDataSource:406 - Created connection 43650267.
+2018-06-30 22:52:04 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29a0cdb]
+2018-06-30 22:52:04 [main] DEBUG findAllDepartment:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-06-30 22:52:04 [main] DEBUG findAllDepartment:159 - ==> Parameters: 
+2018-06-30 22:52:04 [main] DEBUG findAllDepartment:159 - <==      Total: 5
+2018-06-30 23:04:29 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:04:29 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:04:29 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:04:29 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:04:29 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:04:29 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:04:30 [main] DEBUG PooledDataSource:406 - Created connection 849776463.
+2018-06-30 23:04:30 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@32a68f4f]
+2018-06-30 23:04:30 [main] DEBUG findAllDepartment:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-06-30 23:04:30 [main] DEBUG findAllDepartment:159 - ==> Parameters: 
+2018-06-30 23:04:30 [main] DEBUG findAllDepartment:159 - <==      Total: 5
+2018-06-30 23:04:30 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:04:30 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:04:30 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:04:30 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:05:37 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:05:37 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:05:37 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:05:37 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:05:37 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:05:37 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:05:38 [main] DEBUG PooledDataSource:406 - Created connection 849776463.
+2018-06-30 23:05:38 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@32a68f4f]
+2018-06-30 23:05:38 [main] DEBUG findAllDepartment:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-06-30 23:05:38 [main] DEBUG findAllDepartment:159 - ==> Parameters: 
+2018-06-30 23:05:38 [main] DEBUG findAllDepartment:159 - <==      Total: 5
+2018-06-30 23:05:38 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:05:38 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:05:38 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:05:38 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:05:38 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:05:38 [main] DEBUG PooledDataSource:406 - Created connection 726408598.
+2018-06-30 23:05:38 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b4c1d96]
+2018-06-30 23:05:38 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id = ? 
+2018-06-30 23:05:38 [main] DEBUG findDepartmentById:159 - ==> Parameters: null
+2018-06-30 23:05:38 [main] DEBUG findDepartmentById:159 - <==      Total: 0
+2018-06-30 23:07:09 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:07:09 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:07:09 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:07:09 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:07:09 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:07:09 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:07:10 [main] DEBUG PooledDataSource:406 - Created connection 849776463.
+2018-06-30 23:07:10 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@32a68f4f]
+2018-06-30 23:07:10 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id = ? 
+2018-06-30 23:07:10 [main] DEBUG findDepartmentById:159 - ==> Parameters: null
+2018-06-30 23:07:10 [main] DEBUG findDepartmentById:159 - <==      Total: 0
+2018-06-30 23:12:57 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:12:58 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:12:58 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:12:58 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:12:58 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:18:27 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:18:28 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:18:28 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:18:28 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:18:28 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:18:28 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:18:28 [main] DEBUG PooledDataSource:406 - Created connection 120689887.
+2018-06-30 23:18:28 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@73194df]
+2018-06-30 23:18:28 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id = ? 
+2018-06-30 23:18:28 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-06-30 23:18:29 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-06-30 23:21:54 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:21:54 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:21:54 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:21:54 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:21:54 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:21:54 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:21:54 [main] DEBUG PooledDataSource:406 - Created connection 120689887.
+2018-06-30 23:21:54 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@73194df]
+2018-06-30 23:21:54 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id = ? 
+2018-06-30 23:21:55 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-06-30 23:21:55 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-06-30 23:22:38 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:22:38 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:22:38 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:22:38 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:22:38 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:22:39 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:22:39 [main] DEBUG PooledDataSource:406 - Created connection 120689887.
+2018-06-30 23:22:39 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@73194df]
+2018-06-30 23:22:39 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id = ? 
+2018-06-30 23:22:39 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-06-30 23:22:39 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-06-30 23:24:46 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:24:46 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:24:46 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:24:46 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:24:46 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:24:46 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:24:47 [main] DEBUG PooledDataSource:406 - Created connection 120689887.
+2018-06-30 23:24:47 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@73194df]
+2018-06-30 23:24:47 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id = ? 
+2018-06-30 23:24:47 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-06-30 23:24:47 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-06-30 23:32:21 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:32:21 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:32:21 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:32:21 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:32:21 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:32:21 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:32:22 [main] DEBUG PooledDataSource:406 - Created connection 120689887.
+2018-06-30 23:32:22 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@73194df]
+2018-06-30 23:32:22 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id = ? 
+2018-06-30 23:32:22 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-06-30 23:32:22 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-06-30 23:40:16 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:40:16 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:40:16 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:40:16 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:40:16 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:40:16 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:40:17 [main] DEBUG PooledDataSource:406 - Created connection 421637524.
+2018-06-30 23:40:17 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1921ad94]
+2018-06-30 23:40:17 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-06-30 23:40:17 [main] DEBUG findDepartmentById:159 - ==> Parameters: 
+2018-06-30 23:40:17 [main] DEBUG findDepartmentById:159 - <==      Total: 5
+2018-06-30 23:43:29 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:43:29 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:43:29 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:43:29 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:43:29 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:43:29 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-06-30 23:43:29 [main] DEBUG PooledDataSource:406 - Created connection 1406919011.
+2018-06-30 23:43:29 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@53dbe163]
+2018-06-30 23:43:29 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id=? 
+2018-06-30 23:43:30 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-06-30 23:43:30 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-06-30 23:46:45 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-06-30 23:46:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:46:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:46:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-06-30 23:46:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:01:47 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:01:47 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:01:47 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:01:47 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:01:47 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:05:48 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:05:49 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:05:49 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:05:49 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:05:49 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:05:49 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:05:49 [main] DEBUG PooledDataSource:406 - Created connection 1406919011.
+2018-07-01 01:05:49 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@53dbe163]
+2018-07-01 01:05:50 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-07-01 01:05:50 [main] DEBUG findDepartmentById:159 - ==> Parameters: 
+2018-07-01 01:05:50 [main] DEBUG findDepartmentById:159 - <==      Total: 5
+2018-07-01 01:06:11 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:06:12 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:06:12 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:06:12 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:06:12 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:06:12 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:06:12 [main] DEBUG PooledDataSource:406 - Created connection 1406919011.
+2018-07-01 01:06:12 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@53dbe163]
+2018-07-01 01:06:12 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-07-01 01:06:12 [main] DEBUG findDepartmentById:159 - ==> Parameters: 
+2018-07-01 01:06:12 [main] DEBUG findDepartmentById:159 - <==      Total: 5
+2018-07-01 01:15:52 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:15:52 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:15:52 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:15:52 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:15:52 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:16:47 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:16:48 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:16:48 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:16:48 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:16:48 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:27:45 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:27:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:27:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:27:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:27:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:27:46 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:27:46 [main] DEBUG PooledDataSource:406 - Created connection 43650267.
+2018-07-01 01:27:46 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29a0cdb]
+2018-07-01 01:27:46 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id=? 
+2018-07-01 01:27:46 [main] DEBUG findDepartmentById:159 - ==> Parameters: null
+2018-07-01 01:27:46 [main] DEBUG findDepartmentById:159 - <==      Total: 0
+2018-07-01 01:30:28 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:30:28 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:30:28 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:30:28 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:30:28 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:30:28 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:30:29 [main] DEBUG PooledDataSource:406 - Created connection 43650267.
+2018-07-01 01:30:29 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29a0cdb]
+2018-07-01 01:30:29 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id=? 
+2018-07-01 01:30:29 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-07-01 01:30:29 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-07-01 01:33:34 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:33:35 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:33:35 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:33:35 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:33:35 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:33:35 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:33:35 [main] DEBUG PooledDataSource:406 - Created connection 43650267.
+2018-07-01 01:33:35 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29a0cdb]
+2018-07-01 01:33:35 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id=? 
+2018-07-01 01:33:35 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-07-01 01:33:35 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-07-01 01:33:35 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:33:35 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:33:35 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:33:36 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:33:36 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:33:36 [main] DEBUG PooledDataSource:406 - Created connection 726408598.
+2018-07-01 01:33:36 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b4c1d96]
+2018-07-01 01:33:36 [main] DEBUG findDepartmentByName:159 - ==>  Preparing: SELECT id,name FROM department WHERE name = ? 
+2018-07-01 01:33:36 [main] DEBUG findDepartmentByName:159 - ==> Parameters: 営業部(String)
+2018-07-01 01:33:36 [main] DEBUG findDepartmentByName:159 - <==      Total: 1
+2018-07-01 01:37:12 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:406 - Created connection 43650267.
+2018-07-01 01:37:13 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29a0cdb]
+2018-07-01 01:37:13 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id=? 
+2018-07-01 01:37:13 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-07-01 01:37:13 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:406 - Created connection 726408598.
+2018-07-01 01:37:13 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b4c1d96]
+2018-07-01 01:37:13 [main] DEBUG findDepartmentByName:159 - ==>  Preparing: SELECT id,name FROM department WHERE name = ? 
+2018-07-01 01:37:13 [main] DEBUG findDepartmentByName:159 - ==> Parameters: 営業部(String)
+2018-07-01 01:37:13 [main] DEBUG findDepartmentByName:159 - <==      Total: 1
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:13 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:14 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:37:14 [main] DEBUG PooledDataSource:406 - Created connection 686560878.
+2018-07-01 01:37:14 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@28ec166e]
+2018-07-01 01:37:14 [main] DEBUG saveDepartment:159 - ==>  Preparing: INSERT INTO department (id,name)VALUES (?,?) 
+2018-07-01 01:37:14 [main] DEBUG saveDepartment:159 - ==> Parameters: 6(Integer), 開発3部(String)
+2018-07-01 01:37:14 [main] DEBUG saveDepartment:159 - <==    Updates: 1
+2018-07-01 01:37:14 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:14 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:14 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:14 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:14 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:14 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:14 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:37:14 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:37:14 [main] DEBUG PooledDataSource:406 - Created connection 1290272762.
+2018-07-01 01:37:14 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4ce7fffa]
+2018-07-01 01:37:14 [main] DEBUG findAllDepartment:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-07-01 01:37:14 [main] DEBUG findAllDepartment:159 - ==> Parameters: 
+2018-07-01 01:37:14 [main] DEBUG findAllDepartment:159 - <==      Total: 5
+2018-07-01 01:39:52 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:39:52 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:52 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:52 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:52 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:52 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:406 - Created connection 43650267.
+2018-07-01 01:39:53 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29a0cdb]
+2018-07-01 01:39:53 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id=? 
+2018-07-01 01:39:53 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-07-01 01:39:53 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:406 - Created connection 726408598.
+2018-07-01 01:39:53 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b4c1d96]
+2018-07-01 01:39:53 [main] DEBUG findDepartmentByName:159 - ==>  Preparing: SELECT id,name FROM department WHERE name = ? 
+2018-07-01 01:39:53 [main] DEBUG findDepartmentByName:159 - ==> Parameters: 営業部(String)
+2018-07-01 01:39:53 [main] DEBUG findDepartmentByName:159 - <==      Total: 1
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:406 - Created connection 686560878.
+2018-07-01 01:39:53 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@28ec166e]
+2018-07-01 01:39:53 [main] DEBUG saveDepartment:159 - ==>  Preparing: INSERT INTO department (id,name)VALUES (?,?) 
+2018-07-01 01:39:53 [main] DEBUG saveDepartment:159 - ==> Parameters: 6(Integer), 開発3部(String)
+2018-07-01 01:39:53 [main] DEBUG saveDepartment:159 - <==    Updates: 1
+2018-07-01 01:39:53 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:39:53 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:39:53 [main] DEBUG PooledDataSource:406 - Created connection 1290272762.
+2018-07-01 01:39:53 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4ce7fffa]
+2018-07-01 01:39:53 [main] DEBUG findAllDepartment:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-07-01 01:39:53 [main] DEBUG findAllDepartment:159 - ==> Parameters: 
+2018-07-01 01:39:53 [main] DEBUG findAllDepartment:159 - <==      Total: 5
+2018-07-01 01:40:26 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:40:26 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:26 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:26 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:26 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:406 - Created connection 43650267.
+2018-07-01 01:40:27 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29a0cdb]
+2018-07-01 01:40:27 [main] DEBUG findDepartmentById:159 - ==>  Preparing: SELECT id,name FROM department WHERE id=? 
+2018-07-01 01:40:27 [main] DEBUG findDepartmentById:159 - ==> Parameters: 3(Integer)
+2018-07-01 01:40:27 [main] DEBUG findDepartmentById:159 - <==      Total: 1
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:406 - Created connection 726408598.
+2018-07-01 01:40:27 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b4c1d96]
+2018-07-01 01:40:27 [main] DEBUG findDepartmentByName:159 - ==>  Preparing: SELECT id,name FROM department WHERE name = ? 
+2018-07-01 01:40:27 [main] DEBUG findDepartmentByName:159 - ==> Parameters: 営業部(String)
+2018-07-01 01:40:27 [main] DEBUG findDepartmentByName:159 - <==      Total: 1
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:406 - Created connection 686560878.
+2018-07-01 01:40:27 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@28ec166e]
+2018-07-01 01:40:27 [main] DEBUG saveDepartment:159 - ==>  Preparing: INSERT INTO department (id,name) VALUES (?,?) 
+2018-07-01 01:40:27 [main] DEBUG saveDepartment:159 - ==> Parameters: 6(Integer), 開発3部(String)
+2018-07-01 01:40:27 [main] DEBUG saveDepartment:159 - <==    Updates: 1
+2018-07-01 01:40:27 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:27 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:40:28 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:40:28 [main] DEBUG PooledDataSource:406 - Created connection 1290272762.
+2018-07-01 01:40:28 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4ce7fffa]
+2018-07-01 01:40:28 [main] DEBUG findAllDepartment:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-07-01 01:40:28 [main] DEBUG findAllDepartment:159 - ==> Parameters: 
+2018-07-01 01:40:28 [main] DEBUG findAllDepartment:159 - <==      Total: 5
+2018-07-01 01:41:41 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:41:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:41:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:41:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:41:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:41:42 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:41:42 [main] DEBUG PooledDataSource:406 - Created connection 1070157899.
+2018-07-01 01:41:42 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3fc9504b]
+2018-07-01 01:41:42 [main] DEBUG saveDepartment:159 - ==>  Preparing: INSERT INTO department (id,name) VALUES (?,?) 
+2018-07-01 01:41:42 [main] DEBUG saveDepartment:159 - ==> Parameters: 6(Integer), 開発3部(String)
+2018-07-01 01:41:42 [main] DEBUG saveDepartment:159 - <==    Updates: 1
+2018-07-01 01:41:42 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:41:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:41:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:41:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:41:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:41:43 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:41:43 [main] DEBUG PooledDataSource:406 - Created connection 382627885.
+2018-07-01 01:41:43 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@16ce702d]
+2018-07-01 01:41:43 [main] DEBUG findAllDepartment:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-07-01 01:41:43 [main] DEBUG findAllDepartment:159 - ==> Parameters: 
+2018-07-01 01:41:43 [main] DEBUG findAllDepartment:159 - <==      Total: 5
+2018-07-01 01:43:16 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 01:43:16 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:43:16 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:43:16 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:43:16 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:43:16 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:43:17 [main] DEBUG PooledDataSource:406 - Created connection 1070157899.
+2018-07-01 01:43:17 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3fc9504b]
+2018-07-01 01:43:17 [main] DEBUG saveDepartment:159 - ==>  Preparing: INSERT INTO department (id,name) VALUES (?,?) 
+2018-07-01 01:43:17 [main] DEBUG saveDepartment:159 - ==> Parameters: 6(Integer), 開発3部(String)
+2018-07-01 01:43:17 [main] DEBUG saveDepartment:159 - <==    Updates: 1
+2018-07-01 01:43:17 [main] DEBUG JdbcTransaction:70 - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3fc9504b]
+2018-07-01 01:43:17 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:43:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:43:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:43:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:43:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 01:43:17 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 01:43:17 [main] DEBUG PooledDataSource:406 - Created connection 382627885.
+2018-07-01 01:43:17 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@16ce702d]
+2018-07-01 01:43:17 [main] DEBUG findAllDepartment:159 - ==>  Preparing: SELECT id,name FROM department 
+2018-07-01 01:43:17 [main] DEBUG findAllDepartment:159 - ==> Parameters: 
+2018-07-01 01:43:17 [main] DEBUG findAllDepartment:159 - <==      Total: 6
+2018-07-01 23:03:50 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:406 - Created connection 1383524016.
+2018-07-01 23:03:51 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5276e6b0]
+2018-07-01 23:03:51 [main] DEBUG findDepartmentByName:159 - ==>  Preparing: SELECT id,name FROM department WHERE name = ? 
+2018-07-01 23:03:51 [main] DEBUG findDepartmentByName:159 - ==> Parameters: 営業部(String)
+2018-07-01 23:03:51 [main] DEBUG findDepartmentByName:159 - <==      Total: 1
+2018-07-01 23:03:51 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:406 - Created connection 2041605291.
+2018-07-01 23:03:51 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@79b06cab]
+2018-07-01 23:03:51 [main] DEBUG findPositionByName:159 - ==>  Preparing: SELECT id,name FROM position WHERE name = ? 
+2018-07-01 23:03:51 [main] DEBUG findPositionByName:159 - ==> Parameters: 課長(String)
+2018-07-01 23:03:51 [main] DEBUG findPositionByName:159 - <==      Total: 1
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:03:51 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:03:51 [main] DEBUG PooledDataSource:406 - Created connection 479397964.
+2018-07-01 23:03:51 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1c93084c]
+2018-07-01 23:03:51 [main] DEBUG saveEmployee:159 - ==>  Preparing: INSERT INTO employee (id,name,kana,sex,birthday,address,telephone,mobile,email,hireday,department_id,position_id) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) 
+2018-07-01 23:04:16 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 23:04:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:17 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:04:17 [main] DEBUG PooledDataSource:406 - Created connection 1088104996.
+2018-07-01 23:04:17 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@40db2a24]
+2018-07-01 23:04:17 [main] DEBUG findDepartmentByName:159 - ==>  Preparing: SELECT id,name FROM department WHERE name = ? 
+2018-07-01 23:04:17 [main] DEBUG findDepartmentByName:159 - ==> Parameters: 営業部(String)
+2018-07-01 23:04:17 [main] DEBUG findDepartmentByName:159 - <==      Total: 1
+2018-07-01 23:04:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:17 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:18 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:04:18 [main] DEBUG PooledDataSource:406 - Created connection 186061555.
+2018-07-01 23:04:18 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b1712f3]
+2018-07-01 23:04:18 [main] DEBUG findPositionByName:159 - ==>  Preparing: SELECT id,name FROM position WHERE name = ? 
+2018-07-01 23:04:18 [main] DEBUG findPositionByName:159 - ==> Parameters: 課長(String)
+2018-07-01 23:04:18 [main] DEBUG findPositionByName:159 - <==      Total: 1
+2018-07-01 23:04:18 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:18 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:18 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:18 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:18 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:04:18 [main] DEBUG PooledDataSource:406 - Created connection 40191541.
+2018-07-01 23:04:18 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2654635]
+2018-07-01 23:04:18 [main] DEBUG saveEmployee:159 - ==>  Preparing: INSERT INTO employee (id,name,kana,sex,birthday,address,telephone,mobile,email,hireday,department_id,position_id) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) 
+2018-07-01 23:04:18 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:18 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:04:18 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:54 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 23:05:54 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:54 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:54 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:54 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:55 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:406 - Created connection 1088104996.
+2018-07-01 23:05:55 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@40db2a24]
+2018-07-01 23:05:55 [main] DEBUG findDepartmentByName:159 - ==>  Preparing: SELECT id,name FROM department WHERE name = ? 
+2018-07-01 23:05:55 [main] DEBUG findDepartmentByName:159 - ==> Parameters: 営業部(String)
+2018-07-01 23:05:55 [main] DEBUG findDepartmentByName:159 - <==      Total: 1
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:55 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:406 - Created connection 1770437551.
+2018-07-01 23:05:55 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6986bbaf]
+2018-07-01 23:05:55 [main] DEBUG findPositionByName:159 - ==>  Preparing: SELECT id,name FROM position WHERE name = ? 
+2018-07-01 23:05:55 [main] DEBUG findPositionByName:159 - ==> Parameters: 課長(String)
+2018-07-01 23:05:55 [main] DEBUG findPositionByName:159 - <==      Total: 1
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:05:55 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:05:55 [main] DEBUG PooledDataSource:406 - Created connection 1937380187.
+2018-07-01 23:05:55 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@737a135b]
+2018-07-01 23:05:55 [main] DEBUG saveEmployee:159 - ==>  Preparing: INSERT INTO employee (id,name,kana,sex,birthday,address,telephone,mobile,email,hireday,department_id,position_id) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) 
+2018-07-01 23:06:41 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 23:06:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:42 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:06:42 [main] DEBUG PooledDataSource:406 - Created connection 1088104996.
+2018-07-01 23:06:42 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@40db2a24]
+2018-07-01 23:06:42 [main] DEBUG findDepartmentByName:159 - ==>  Preparing: SELECT id,name FROM department WHERE name = ? 
+2018-07-01 23:06:42 [main] DEBUG findDepartmentByName:159 - ==> Parameters: 営業部(String)
+2018-07-01 23:06:42 [main] DEBUG findDepartmentByName:159 - <==      Total: 1
+2018-07-01 23:06:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:42 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:406 - Created connection 1770437551.
+2018-07-01 23:06:43 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6986bbaf]
+2018-07-01 23:06:43 [main] DEBUG findPositionByName:159 - ==>  Preparing: SELECT id,name FROM position WHERE name = ? 
+2018-07-01 23:06:43 [main] DEBUG findPositionByName:159 - ==> Parameters: 課長(String)
+2018-07-01 23:06:43 [main] DEBUG findPositionByName:159 - <==      Total: 1
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:406 - Created connection 1937380187.
+2018-07-01 23:06:43 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@737a135b]
+2018-07-01 23:06:43 [main] DEBUG saveEmployee:159 - ==>  Preparing: INSERT INTO employee (id,name,kana,sex,birthday,address,telephone,mobile,email,hireday,department_id,position_id) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) 
+2018-07-01 23:06:43 [main] DEBUG saveEmployee:159 - ==> Parameters: null, 中村　次郎(String), ナカムラ　ジロウ(String), 男(String), 1983-11-20 00:00:00.0(Timestamp), 東京都台東区浅草橋2-25-7 長島エレガンス5階(String), 0358392838(String), 09091488660(String), tangzh1983@gmail.com(String), 2017-06-01 00:00:00.0(Timestamp), 2(Integer), 6(Integer)
+2018-07-01 23:06:43 [main] DEBUG saveEmployee:159 - <==    Updates: 1
+2018-07-01 23:06:43 [main] DEBUG JdbcTransaction:70 - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@737a135b]
+2018-07-01 23:06:43 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:43 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:06:43 [main] DEBUG PooledDataSource:406 - Created connection 712410124.
+2018-07-01 23:06:43 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a76840c]
+2018-07-01 23:06:43 [main] DEBUG findAllEmployee:159 - ==>  Preparing: SELECT id,name,kana,sex,birthday,address,telephone,mobile,email,hireday,department_id,position_id FROM employee 
+2018-07-01 23:06:43 [main] DEBUG findAllEmployee:159 - ==> Parameters: 
+2018-07-01 23:06:43 [main] DEBUG findAllEmployee:159 - <==      Total: 1
+2018-07-01 23:06:44 [main] DEBUG LogFactory:135 - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2018-07-01 23:06:44 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:44 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:44 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:44 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:406 - Created connection 1088104996.
+2018-07-01 23:06:45 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@40db2a24]
+2018-07-01 23:06:45 [main] DEBUG findDepartmentByName:159 - ==>  Preparing: SELECT id,name FROM department WHERE name = ? 
+2018-07-01 23:06:45 [main] DEBUG findDepartmentByName:159 - ==> Parameters: 営業部(String)
+2018-07-01 23:06:45 [main] DEBUG findDepartmentByName:159 - <==      Total: 1
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:406 - Created connection 186061555.
+2018-07-01 23:06:45 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b1712f3]
+2018-07-01 23:06:45 [main] DEBUG findPositionByName:159 - ==>  Preparing: SELECT id,name FROM position WHERE name = ? 
+2018-07-01 23:06:45 [main] DEBUG findPositionByName:159 - ==> Parameters: 課長(String)
+2018-07-01 23:06:45 [main] DEBUG findPositionByName:159 - <==      Total: 1
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:406 - Created connection 40191541.
+2018-07-01 23:06:45 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2654635]
+2018-07-01 23:06:45 [main] DEBUG saveEmployee:159 - ==>  Preparing: INSERT INTO employee (id,name,kana,sex,birthday,address,telephone,mobile,email,hireday,department_id,position_id) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) 
+2018-07-01 23:06:45 [main] DEBUG saveEmployee:159 - ==> Parameters: null, 中村　次郎(String), ナカムラ　ジロウ(String), 男(String), 1983-11-20 00:00:00.0(Timestamp), 東京都台東区浅草橋2-25-7 長島エレガンス5階(String), 0358392838(String), 09091488660(String), tangzh1983@gmail.com(String), 2017-06-01 00:00:00.0(Timestamp), 2(Integer), 6(Integer)
+2018-07-01 23:06:45 [main] DEBUG saveEmployee:159 - <==    Updates: 1
+2018-07-01 23:06:45 [main] DEBUG JdbcTransaction:70 - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2654635]
+2018-07-01 23:06:45 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [Finalizer] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:45 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:46 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:46 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:46 [main] DEBUG PooledDataSource:335 - PooledDataSource forcefully closed/removed all connections.
+2018-07-01 23:06:46 [main] DEBUG JdbcTransaction:137 - Opening JDBC Connection
+2018-07-01 23:06:46 [main] DEBUG PooledDataSource:406 - Created connection 1176932104.
+2018-07-01 23:06:46 [main] DEBUG JdbcTransaction:101 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@46268f08]
+2018-07-01 23:06:46 [main] DEBUG findAllEmployee:159 - ==>  Preparing: SELECT id,name,kana,sex,birthday,address,telephone,mobile,email,hireday,department_id,position_id FROM employee 
+2018-07-01 23:06:46 [main] DEBUG findAllEmployee:159 - ==> Parameters: 
+2018-07-01 23:06:46 [main] DEBUG findAllEmployee:159 - <==      Total: 2
