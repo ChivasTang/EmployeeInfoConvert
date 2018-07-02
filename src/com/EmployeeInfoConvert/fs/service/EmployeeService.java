@@ -50,7 +50,8 @@ public class EmployeeService implements IEmployeeService {
 //                        departmentDao.saveDepartment(department);
 //                    }
 
-                    employee.setDepartmentId((departmentDao.findDepartmentByName(dep.getDepartmentName())).getId());
+                    employee.setDepartmentId(departmentDao.findDepartmentByName(dep.getDepartmentName()).getId());
+
 
 //                    List<Position> positions=positionDao.findAllPosition();
 //                    if(!positions.contains(department.getPositionName())){

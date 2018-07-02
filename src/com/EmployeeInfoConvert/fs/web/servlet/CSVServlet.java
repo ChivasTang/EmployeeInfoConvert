@@ -34,17 +34,18 @@ public class CSVServlet extends HttpServlet {
         logger.info("部門情報CSVファイルを作成しました。。。");
         csvService.writeCSVPosition("position");
         logger.info("職位情報CSVファイルを作成しました。。。");
-
-        req.getRequestDispatcher("").forward(req,resp);
+        req.getRequestDispatcher("email.jsp").forward(req,resp);
     }
 
     @Override
     public void destroy() {
         super.destroy();
+        logger.info("CSVServlet has been destroyed.....");
     }
 
     @Override
     public void init() throws ServletException {
         super.init();
+        logger.info("CSVServlet has been initialized.....");
     }
 }

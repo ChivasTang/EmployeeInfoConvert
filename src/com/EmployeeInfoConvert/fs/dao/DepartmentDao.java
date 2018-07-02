@@ -15,7 +15,7 @@ public class DepartmentDao implements IDepartmentDao {
     @Override
     public List<Department> findAllDepartment() {
         DBAccess dbAccess = new DBAccess();
-        SqlSession sqlSession;
+        SqlSession sqlSession=null;
         List<Department> departmentList=new ArrayList<>();
         try {
             Department department=new Department();
@@ -24,13 +24,16 @@ public class DepartmentDao implements IDepartmentDao {
         } catch (IOException e) {
             logger.error(e.getMessage());
         }
+        if (sqlSession != null) {
+            sqlSession.close();
+        }
         return departmentList;
     }
 
     @Override
     public Department findDepartmentById(Integer id) {
         DBAccess dbAccess = new DBAccess();
-        SqlSession sqlSession;
+        SqlSession sqlSession=null;
         Department department=new Department();
         try {
             sqlSession=dbAccess.getSqlSession();
@@ -38,13 +41,16 @@ public class DepartmentDao implements IDepartmentDao {
         } catch (IOException e) {
             logger.error(e.getMessage());
         }
+        if (sqlSession != null) {
+            sqlSession.close();
+        }
         return department;
     }
 
     @Override
     public Department findDepartmentByName(String name) {
         DBAccess dbAccess = new DBAccess();
-        SqlSession sqlSession;
+        SqlSession sqlSession = null;
         Department department=new Department();
         try {
             sqlSession=dbAccess.getSqlSession();
@@ -52,7 +58,9 @@ public class DepartmentDao implements IDepartmentDao {
         } catch (IOException e) {
             logger.error(e.getMessage());
         }
-        logger.info(department.toString());
+        if (sqlSession != null) {
+            sqlSession.close();
+        }
         return department;
     }
 
