@@ -20,6 +20,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Date;
 import java.util.List;
@@ -32,9 +34,7 @@ public class EmailServlet extends HttpServlet {
     private static final String FILEPATH_PREFIX = "E:/IdeaProjects/EmployeeInfoConvert";
     private static final String FILEPATH_PREFIX_OUT = "/resources/output/";
     private static final String ZIP_SUFFIX = ".zip";
-    private static final String myEmailAccount = "xxxxxxxx@163.com";
-    private static final String myEmailPassword = "xxxxxxxx";
-    private static final String myEmailSMTPHost = "smtp.163.com";
+    private static final String PROPERTIES_FILE="E:\\IdeaProjects\\EmployeeInfoConvert\\src\\EmployeeInfoConvert.properties";
 
     private ICSVService csvService = new CSVService();
     private IEmployeeService employeeService = new EmployeeService();
@@ -53,24 +53,19 @@ public class EmailServlet extends HttpServlet {
 
         // 1. 创建参数配置, 用于连接邮件服务器的参数配置
         Properties props = new Properties();
-        props.setProperty("mail.transport.protocol", "smtp");   // 使用的协议（JavaMail规范要求）
-        props.setProperty("mail.smtp.host", myEmailSMTPHost);   // 发件人的邮箱的 SMTP 服务器地址
-        props.setProperty("mail.smtp.auth", "true");            // 需要请求认证
-        Session session = Session.getInstance(props);
+        props.load(new FileInputStream(new File(PROPERTIES_FILE)));
+        //Session session = Session.getInstance(props);
+        Session session=Session.getDefaultInstance(props,null);
         session.setDebug(true);
         MimeMessage message = new MimeMessage(session);
         try {
-            if (!req.getParameter("zipFimeName").isEmpty()) {
-                zipName = req.getParameter("zipFimeName");
-            } else {
-                zipName = "EmployeeInfoConverted";
-            }
+            zipName = "EmployeeInfoConverted";
             password = RandomStringUtils.getPassword();
             logger.info("zip文件的密码为：" + password);
             csvService.prepareZipWithPwd(fileNames, zipName, password);
 
 
-            message.setFrom(new InternetAddress(myEmailAccount, "Chivas Tang", "UTF-8"));
+            message.setFrom(new InternetAddress("${mail.smtp.account}", "Chivas Tang", "UTF-8"));
             for (Employee employee : employeeList) {
                 message.addRecipient(Message.RecipientType.TO, new InternetAddress(employee.getEmail(), employee.getEmail(), "UTF-8"));
             }
@@ -92,15 +87,13 @@ public class EmailServlet extends HttpServlet {
             message.setSentDate(new Date());
             message.saveChanges();
 
-            Transport transport = session.getTransport();
-            transport.connect(myEmailAccount, myEmailPassword);
+            Transport transport = session.getTransport("smtp");
+            transport.connect("smtp.gmail.com", 465,"mail.smtp.account", "${mail.smtp.password}");
             transport.sendMessage(message, message.getAllRecipients());
             transport.close();
         } catch (ZipException | MessagingException e) {
             logger.error(e.getMessage());
         }
-
-
     }
 
     @Override

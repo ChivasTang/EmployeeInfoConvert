@@ -1,9 +1,6 @@
 package com.EmployeeInfoConvert.fs.web.servlet;
 
-import com.EmployeeInfoConvert.fs.service.CSVService;
-import com.EmployeeInfoConvert.fs.service.EmployeeService;
-import com.EmployeeInfoConvert.fs.service.ICSVService;
-import com.EmployeeInfoConvert.fs.service.IEmployeeService;
+import com.EmployeeInfoConvert.fs.service.*;
 import org.apache.log4j.Logger;
 
 import javax.servlet.ServletException;
@@ -17,6 +14,8 @@ public class CSVServlet extends HttpServlet {
     private static Logger logger = Logger.getLogger(CSVServlet.class.getName());
     private ICSVService csvService=new CSVService();
     private IEmployeeService employeeService=new EmployeeService();
+    private ISQLService sqlService=new SQLService();
+    private static final String pathName= "E:\\IdeaProjects\\EmployeeInfoConvert\\src\\db.sql";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -25,6 +24,8 @@ public class CSVServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        logger.info("データベースを初期化中です。少々お待ち下さい。。。");
+        sqlService.initializeDB(pathName);
         logger.info("ファイルを読み込んでいる。少々お待ち下さい。。。");
         employeeService.insertAll("basic","contact","department");
         logger.info("社員情報を読み込みました、整理しています。。。");

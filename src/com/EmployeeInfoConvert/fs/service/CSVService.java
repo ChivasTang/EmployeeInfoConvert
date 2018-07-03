@@ -191,7 +191,7 @@ public class CSVService implements ICSVService {
 
     @Override
     public void prepareZipWithPwd(String[] fileNames, String zipName, String password) throws ZipException {
-        ZipFile zipFile=new ZipFile(FILEPATH_PREFIX + FILEPATH_PREFIX_IN +zipName+ ZIP_SUFFIX);
+        ZipFile zipFile=new ZipFile(FILEPATH_PREFIX + FILEPATH_PREFIX_OUT +zipName+ ZIP_SUFFIX);
             ArrayList<File> filesToAdd=new ArrayList<>();
             for(String fileName:fileNames){
                 filesToAdd.add(new File(FILEPATH_PREFIX+FILEPATH_PREFIX_OUT+fileName+ FILEPATH_SUFFIX_OUT));

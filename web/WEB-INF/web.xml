@@ -14,5 +14,12 @@
         <servlet-name>CSVServlet</servlet-name>
         <url-pattern>/csv.action</url-pattern>
     </servlet-mapping>
-
+    <servlet>
+        <servlet-name>EmailServlet</servlet-name>
+        <servlet-class>com.EmployeeInfoConvert.fs.web.servlet.EmailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmailServlet</servlet-name>
+        <url-pattern>/email.action</url-pattern>
+    </servlet-mapping>
 </web-app>
