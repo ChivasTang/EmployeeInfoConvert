@@ -11,17 +11,12 @@ import org.apache.log4j.Logger;
 
 import javax.activation.DataHandler;
 import javax.activation.FileDataSource;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.Session;
-import javax.mail.Transport;
+import javax.mail.*;
 import javax.mail.internet.*;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Date;
 import java.util.List;
@@ -34,7 +29,7 @@ public class EmailServlet extends HttpServlet {
     private static final String FILEPATH_PREFIX = "E:/IdeaProjects/EmployeeInfoConvert";
     private static final String FILEPATH_PREFIX_OUT = "/resources/output/";
     private static final String ZIP_SUFFIX = ".zip";
-    private static final String PROPERTIES_FILE="E:\\IdeaProjects\\EmployeeInfoConvert\\src\\EmployeeInfoConvert.properties";
+//    private static final String PROPERTIES_FILE="E:\\IdeaProjects\\EmployeeInfoConvert\\src\\EmployeeInfoConvert.properties";
 
     private ICSVService csvService = new CSVService();
     private IEmployeeService employeeService = new EmployeeService();
@@ -52,11 +47,20 @@ public class EmailServlet extends HttpServlet {
         List<Employee> employeeList = employeeService.findAllEmployee();
 
         // 1. 创建参数配置, 用于连接邮件服务器的参数配置
-        Properties props = new Properties();
-        props.load(new FileInputStream(new File(PROPERTIES_FILE)));
-        //Session session = Session.getInstance(props);
-        Session session=Session.getDefaultInstance(props,null);
-        session.setDebug(true);
+        Properties props = System.getProperties();
+
+        final String userName = "rxjh2012";//yahooメールのアカウント（@yahoo.co.jpがいらない部分）
+        final String pwd = "";//ここでyahooメールのパスワードを入力してください。
+        String host = "smtp.mail.yahoo.co.jp";
+        String from = "rxjh2012@yahoo.co.jp";
+        props.setProperty("mail.smtp.port", "587");
+        props.setProperty("mail.smtp.auth", "true");
+        props.put("mail.smtp.starttls.enable", "true");
+        Session session = Session.getInstance(props, new Authenticator() {
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication(userName, pwd);
+            }
+        });
         MimeMessage message = new MimeMessage(session);
         try {
             zipName = "EmployeeInfoConverted";
@@ -65,7 +69,7 @@ public class EmailServlet extends HttpServlet {
             csvService.prepareZipWithPwd(fileNames, zipName, password);
 
 
-            message.setFrom(new InternetAddress("${mail.smtp.account}", "Chivas Tang", "UTF-8"));
+            message.setFrom(new InternetAddress(userName+"@yahoo.co.jp", userName, "UTF-8"));
             for (Employee employee : employeeList) {
                 message.addRecipient(Message.RecipientType.TO, new InternetAddress(employee.getEmail(), employee.getEmail(), "UTF-8"));
             }
@@ -88,7 +92,7 @@ public class EmailServlet extends HttpServlet {
             message.saveChanges();
 
             Transport transport = session.getTransport("smtp");
-            transport.connect("smtp.gmail.com", 465,"mail.smtp.account", "${mail.smtp.password}");
+            transport.connect(host, from, pwd);
             transport.sendMessage(message, message.getAllRecipients());
             transport.close();
         } catch (ZipException | MessagingException e) {

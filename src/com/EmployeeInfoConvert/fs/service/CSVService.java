@@ -114,6 +114,36 @@ public class CSVService implements ICSVService {
     }
 
     @Override
+    public void deletAllFiles(File file) {
+        if (file == null) {
+            return;
+        }
+        //文件目录存在？（包括文件及文件夹）
+        if (file.exists()) {
+            //是文件？
+            if (file.isFile()) {
+                logger.info(file.getAbsolutePath());
+                file.delete();
+            } else if (file.isDirectory()) {
+                //接收文件夹目录下所有的文件实例
+                File[] listFiles = file.listFiles();
+                //文件夹为空 递归出口
+                if (listFiles == null) {
+                    return;
+                }
+                for (File file2 : listFiles) {
+                    //foreach遍历删除文件 递归
+                    deletAllFiles(file2);
+                    logger.info("正在删除文件夹 " + file.getAbsolutePath());
+                }
+                //递归跳出来的时候删除空文件夹
+//                logger.info("正在删除文件夹" + file.getAbsolutePath());
+//                file.delete();
+            }
+        }
+    }
+
+    @Override
     public void writeCSVEmployee(String fileName) {
         List<Employee> employeeList = employeeDao.findAllEmployee();
         try {

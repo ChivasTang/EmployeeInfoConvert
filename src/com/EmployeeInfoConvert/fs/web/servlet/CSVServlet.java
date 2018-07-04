@@ -7,6 +7,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
 import java.io.IOException;
 
 public class CSVServlet extends HttpServlet {
@@ -26,6 +27,8 @@ public class CSVServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         logger.info("データベースを初期化中です。少々お待ち下さい。。。");
         sqlService.initializeDB(pathName);
+        logger.info("フォルダーを初期化中です。少々お待ち下さい。。。");
+        csvService.deletAllFiles(new File("E:\\IdeaProjects\\EmployeeInfoConvert\\resources\\output\\"));
         logger.info("ファイルを読み込んでいる。少々お待ち下さい。。。");
         employeeService.insertAll("basic","contact","department");
         logger.info("社員情報を読み込みました、整理しています。。。");
