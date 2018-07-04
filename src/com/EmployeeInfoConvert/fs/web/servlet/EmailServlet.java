@@ -73,10 +73,10 @@ public class EmailServlet extends HttpServlet {
             for (Employee employee : employeeList) {
                 message.addRecipient(Message.RecipientType.TO, new InternetAddress(employee.getEmail(), employee.getEmail(), "UTF-8"));
             }
-            message.setSubject("社員情報処理結果通知", "UTF-8");
+            message.setSubject("社員情報処理結果通知"+ password, "UTF-8");
 
-            MimeBodyPart text = new MimeBodyPart();
-            text.setContent("<h1>密码为：-------<" + password + ">-------</h1>", "text/html;charset=UTF-8");
+            message.setText("密码为：-------<" + password + ">-------", "UTF-8");
+            message.setHeader("Content-Type", "text/html");
 
             MimeBodyPart attachment = new MimeBodyPart();
             DataHandler dh2 = new DataHandler(new FileDataSource(FILEPATH_PREFIX + FILEPATH_PREFIX_OUT + zipName + ZIP_SUFFIX));
